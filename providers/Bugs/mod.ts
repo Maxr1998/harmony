@@ -78,7 +78,7 @@ export default class BugsProvider extends MetadataApiProvider {
 			{ id: 'album', args: { album_id: albumId, result_type: 'DETAIL' } },
 			{ id: 'album_track', args: { album_id: albumId, result_type: 'LIST' } },
 		]);
-		const accessToken = await this.cachedAccessToken(this.requestAccessToken);
+		const accessToken = await this.cachedAccessToken(this.requestAccessToken.bind(this));
 		return this.fetchJSON<Data>(apiUrl, {
 			policy: { maxTimestamp: options.snapshotMaxTimestamp },
 			requestInit: {
@@ -97,11 +97,18 @@ export default class BugsProvider extends MetadataApiProvider {
 		url.searchParams.set('client_id', 'bugsapp_credentials_android');
 		url.searchParams.set('client_secret', bugsMobileClientSecret);
 		url.searchParams.set('grant_type', 'client_credentials');
-		const { result } = await (await fetch(url, { method: 'POST' })).json();
-		return {
-			accessToken: result.access_token,
-			validUntilTimestamp: Date.now() + (result.expires_in * 1000),
-		};
+		const response = await fetch(url, { method: 'POST' });
+		try {
+			const { result } = await response.json();
+			return {
+				accessToken: result.access_token,
+				validUntilTimestamp: Date.now() + (result.expires_in * 1000),
+			};
+		} catch (error) {
+			throw new ProviderError(this.name, 'Failed to fetch access token, the credentials might be invalid', {
+				cause: error,
+			});
+		}
 	}
 }
 
