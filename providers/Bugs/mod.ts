@@ -5,7 +5,9 @@ import {
 	MetadataApiProvider,
 	ReleaseApiLookup,
 } from '@/providers/base.ts';
+import type { ProviderCategory } from '@/providers/categories.ts';
 import { DurationPrecision, FeatureQuality, type FeatureQualityMap } from '@/providers/features.ts';
+import { getFromEnv } from '@/utils/config.ts';
 import type { PartialDate } from '@/utils/date.ts';
 import { parseDuration } from '@/utils/time.ts';
 import { ProviderError } from '@/utils/errors.ts';
@@ -21,7 +23,6 @@ import type {
 	ReleaseGroupType,
 } from '@/harmonizer/types.ts';
 import type { BugsAlbum, BugsArtist, BugsMultiResponse, BugsTrack } from './api_types.ts';
-import { getFromEnv } from '../../utils/config.ts';
 
 const IMAGE_BASE = 'https://image.bugsm.co.kr/album/images';
 
@@ -34,6 +35,8 @@ export default class BugsProvider extends MetadataApiProvider {
 		hostname: 'music.bugs.co.kr',
 		pathname: String.raw`/:type(album|track|artist)/:id(\d+)`,
 	});
+
+	override readonly categories = new Set<ProviderCategory>(['digital']);
 
 	override readonly features: FeatureQualityMap = {
 		'cover size': 3000,
@@ -69,6 +72,7 @@ export default class BugsProvider extends MetadataApiProvider {
 	}
 
 	async query<Data>(apiUrl: URL, options: ApiQueryOptions): Promise<CacheEntry<Data>> {
+		// Extract dummy URL parameter (which is used as cache ID) and put the ID into the body.
 		const albumId = Number(apiUrl.searchParams.get('album_id'));
 		const body = JSON.stringify([
 			{ id: 'album', args: { album_id: albumId, result_type: 'DETAIL' } },

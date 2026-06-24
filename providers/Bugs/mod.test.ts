@@ -26,10 +26,12 @@ describe('Bugs! provider', () => {
 			description: 'artist page',
 			url: new URL('https://music.bugs.co.kr/artist/20171256'),
 			id: { type: 'artist', id: '20171256' },
+			isCanonical: true,
 		}, {
 			description: 'track page',
 			url: new URL('https://music.bugs.co.kr/track/6180357'),
 			id: { type: 'track', id: '6180357' },
+			isCanonical: true,
 		}, {
 			description: 'search page (unsupported)',
 			url: new URL('https://music.bugs.co.kr/search/track?q=test'),
