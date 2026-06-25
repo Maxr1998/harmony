@@ -1,0 +1,1318 @@
+export const snapshot = {};
+
+snapshot[`Melon provider > release lookup > Regular (정규) album with unavailable CD-only tracks 1`] = `
+{
+  artists: [
+    {
+      creditedName: "HEART OF WOMAN (하트오브우먼)",
+      externalIds: [
+        {
+          id: "4974032",
+          provider: "melon",
+          type: "artist",
+        },
+      ],
+      name: "HEART OF WOMAN (하트오브우먼)",
+    },
+  ],
+  availableIn: [
+    "KR",
+  ],
+  excludedFrom: [],
+  externalLinks: [
+    {
+      types: [
+        "paid streaming",
+      ],
+      url: "https://www.melon.com/album/detail.htm?albumId=13691104",
+    },
+  ],
+  images: [
+    {
+      thumbUrl: "https://cdnimg.melon.co.kr/cm2/album/images/136/91/104/13691104_20260527151547_1000.jpg?d542b23e161ca5823a59711812184deb",
+      types: [
+        "front",
+      ],
+      url: "https://cdnimg.melon.co.kr/cm2/album/images/136/91/104/13691104_20260527151547_org.jpg",
+    },
+  ],
+  info: {
+    messages: [],
+    providers: [
+      {
+        apiUrl: "https://m2.melon.com/m6/v3/album/info.json?albumId=13691104",
+        id: "13691104",
+        internalName: "melon",
+        lookup: {
+          method: "id",
+          value: "13691104",
+        },
+        name: "Melon",
+        url: "https://www.melon.com/album/detail.htm?albumId=13691104",
+      },
+    ],
+  },
+  labels: [
+    {
+      name: "BLUEBROWN RECORDS",
+    },
+  ],
+  media: [
+    {
+      format: "Digital Media",
+      number: 1,
+      tracklist: [
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 148000,
+          number: 1,
+          recording: {
+            externalIds: [
+              {
+                id: "602102736",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "ALIVE",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 177000,
+          number: 2,
+          recording: {
+            externalIds: [
+              {
+                id: "602102737",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "SHOW H.O.W",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 188000,
+          number: 3,
+          recording: {
+            externalIds: [
+              {
+                id: "602102738",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Told U So",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 159000,
+          number: 4,
+          recording: {
+            externalIds: [
+              {
+                id: "602102739",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "TEA",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 156000,
+          number: 5,
+          recording: {
+            externalIds: [
+              {
+                id: "602102740",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "My Vision",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 84000,
+          number: 6,
+          recording: {
+            externalIds: [
+              {
+                id: "602102741",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Skit.exe",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 154000,
+          number: 7,
+          recording: {
+            externalIds: [
+              {
+                id: "602102742",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "나를 잃지 않는 방법 (Lost in Proof)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 163000,
+          number: 8,
+          recording: {
+            externalIds: [
+              {
+                id: "602102743",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "달라 (\$.\$)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 160000,
+          number: 9,
+          recording: {
+            externalIds: [
+              {
+                id: "602102744",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Close To Me",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 130000,
+          number: 10,
+          recording: {
+            externalIds: [
+              {
+                id: "602102745",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "One Beat",
+        },
+        {
+          artists: [
+            {
+              creditedName: "HEART OF WOMAN (하트오브우먼)",
+              externalIds: [
+                {
+                  id: "4974032",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "HEART OF WOMAN (하트오브우먼)",
+            },
+          ],
+          length: 175000,
+          number: 11,
+          recording: {
+            externalIds: [
+              {
+                id: "602102746",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Dive With Me",
+        },
+      ],
+    },
+  ],
+  packaging: "None",
+  releaseDate: {
+    date: {
+      day: 28,
+      month: 5,
+      year: 2026,
+    },
+    quality: "assumed-valid",
+  },
+  status: "Official",
+  title: "Heart Byte : LEGACY",
+  types: [
+    "Album",
+  ],
+}
+`;
+
+snapshot[`Melon provider > release lookup > Regular (정규) album with multiple discs and multiple artists 1`] = `
+{
+  artists: [
+    {
+      creditedName: "크레용팝",
+      externalIds: [
+        {
+          id: "685904",
+          provider: "melon",
+          type: "artist",
+        },
+      ],
+      name: "크레용팝",
+    },
+  ],
+  availableIn: [
+    "KR",
+  ],
+  excludedFrom: [],
+  externalLinks: [
+    {
+      types: [
+        "paid streaming",
+      ],
+      url: "https://www.melon.com/album/detail.htm?albumId=10000727",
+    },
+  ],
+  images: [
+    {
+      thumbUrl: "https://cdnimg.melon.co.kr/cm/album/images/100/00/727/10000727_1000.jpg",
+      types: [
+        "front",
+      ],
+      url: "https://cdnimg.melon.co.kr/cm/album/images/100/00/727/10000727_org.jpg",
+    },
+  ],
+  info: {
+    messages: [],
+    providers: [
+      {
+        apiUrl: "https://m2.melon.com/m6/v3/album/info.json?albumId=10000727",
+        id: "10000727",
+        internalName: "melon",
+        lookup: {
+          method: "id",
+          value: "10000727",
+        },
+        name: "Melon",
+        url: "https://www.melon.com/album/detail.htm?albumId=10000727",
+      },
+    ],
+  },
+  labels: [
+    {
+      name: "크롬엔터테인먼트",
+    },
+  ],
+  media: [
+    {
+      format: "Digital Media",
+      number: 1,
+      tracklist: [
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 180000,
+          number: 1,
+          recording: {
+            externalIds: [
+              {
+                id: "30004162",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "부릉부릉 (Vroom Vroom)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 182000,
+          number: 2,
+          recording: {
+            externalIds: [
+              {
+                id: "30004163",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Too Much",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 190000,
+          number: 3,
+          recording: {
+            externalIds: [
+              {
+                id: "30004164",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "두둠칫 (Doo Doom Chit)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 213000,
+          number: 4,
+          recording: {
+            externalIds: [
+              {
+                id: "30004165",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "부기우기 (Boogie Woogie)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 212000,
+          number: 5,
+          recording: {
+            externalIds: [
+              {
+                id: "30004166",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Tonight",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 179000,
+          number: 6,
+          recording: {
+            externalIds: [
+              {
+                id: "30004167",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "다가와 (Get It Here)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 189000,
+          number: 7,
+          recording: {
+            externalIds: [
+              {
+                id: "30004168",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "스케치북 (Sketch Book)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "소율",
+              externalIds: [
+                {
+                  id: "685916",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "소율",
+            },
+          ],
+          length: 207000,
+          number: 8,
+          recording: {
+            externalIds: [
+              {
+                id: "30004169",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Love Couple (Feat. The Zoo)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 180000,
+          number: 9,
+          recording: {
+            externalIds: [
+              {
+                id: "30004170",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "부릉부릉 (Vroom Vroom) (Inst.)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 190000,
+          number: 10,
+          recording: {
+            externalIds: [
+              {
+                id: "30004171",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "두둠칫 (Doo Doom Chit) (Inst.)",
+        },
+      ],
+    },
+    {
+      format: "Digital Media",
+      number: 2,
+      tracklist: [
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 179000,
+          number: 1,
+          recording: {
+            externalIds: [
+              {
+                id: "30004172",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "빠빠빠 (Bar Bar Bar)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 193000,
+          number: 2,
+          recording: {
+            externalIds: [
+              {
+                id: "30004173",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "어이 (UH-EE)",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 200000,
+          number: 3,
+          recording: {
+            externalIds: [
+              {
+                id: "30004174",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Dancing Queen 2.0",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 186000,
+          number: 4,
+          recording: {
+            externalIds: [
+              {
+                id: "30004175",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Bing Bing",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 221000,
+          number: 5,
+          recording: {
+            externalIds: [
+              {
+                id: "30004176",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "FM",
+        },
+        {
+          artists: [
+            {
+              creditedName: "크레용팝",
+              externalIds: [
+                {
+                  id: "685904",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "크레용팝",
+            },
+          ],
+          length: 187000,
+          number: 6,
+          recording: {
+            externalIds: [
+              {
+                id: "30004177",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Saturday Night",
+        },
+        {
+          artists: [
+            {
+              creditedName: "웨이 (크레용팝)",
+              externalIds: [
+                {
+                  id: "685918",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "웨이 (크레용팝)",
+            },
+            {
+              creditedName: "초아 (크레용팝)",
+              externalIds: [
+                {
+                  id: "685917",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "초아 (크레용팝)",
+            },
+          ],
+          length: 223000,
+          number: 7,
+          recording: {
+            externalIds: [
+              {
+                id: "30004178",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Hello",
+        },
+      ],
+    },
+  ],
+  packaging: "None",
+  releaseDate: {
+    date: {
+      day: 26,
+      month: 9,
+      year: 2016,
+    },
+    quality: "assumed-valid",
+  },
+  status: "Official",
+  title: "Evolution Pop_Vol.1",
+  types: [
+    "Album",
+  ],
+}
+`;
+
+snapshot[`Melon provider > release lookup > EP (미니) album 1`] = `
+{
+  artists: [
+    {
+      creditedName: "tripleS (트리플에스)",
+      externalIds: [
+        {
+          id: "3137294",
+          provider: "melon",
+          type: "artist",
+        },
+      ],
+      name: "tripleS (트리플에스)",
+    },
+  ],
+  availableIn: [
+    "KR",
+  ],
+  excludedFrom: [],
+  externalLinks: [
+    {
+      types: [
+        "paid streaming",
+      ],
+      url: "https://www.melon.com/album/detail.htm?albumId=13693526",
+    },
+  ],
+  images: [
+    {
+      thumbUrl: "https://cdnimg.melon.co.kr/cm2/album/images/136/93/526/13693526_20260528115553_1000.jpg?41b5d7a536bb19d0c982ac5b9d8b505c",
+      types: [
+        "front",
+      ],
+      url: "https://cdnimg.melon.co.kr/cm2/album/images/136/93/526/13693526_20260528115553_org.jpg",
+    },
+  ],
+  info: {
+    messages: [],
+    providers: [
+      {
+        apiUrl: "https://m2.melon.com/m6/v3/album/info.json?albumId=13693526",
+        id: "13693526",
+        internalName: "melon",
+        lookup: {
+          method: "id",
+          value: "13693526",
+        },
+        name: "Melon",
+        url: "https://www.melon.com/album/detail.htm?albumId=13693526",
+      },
+    ],
+  },
+  labels: [
+    {
+      name: "모드하우스",
+    },
+  ],
+  media: [
+    {
+      format: "Digital Media",
+      number: 1,
+      tracklist: [
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 162000,
+          number: 1,
+          recording: {
+            externalIds: [
+              {
+                id: "602111503",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Sad Girls Schemin'",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 61000,
+          number: 2,
+          recording: {
+            externalIds: [
+              {
+                id: "602111504",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Peer",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 188000,
+          number: 3,
+          recording: {
+            externalIds: [
+              {
+                id: "602111505",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Baby Flower",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 189000,
+          number: 4,
+          recording: {
+            externalIds: [
+              {
+                id: "602111506",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Type of Girl",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 151000,
+          number: 5,
+          recording: {
+            externalIds: [
+              {
+                id: "602111507",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Sleek",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 136000,
+          number: 6,
+          recording: {
+            externalIds: [
+              {
+                id: "602111508",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "I Like That",
+        },
+        {
+          artists: [
+            {
+              creditedName: "tripleS (트리플에스)",
+              externalIds: [
+                {
+                  id: "3137294",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "tripleS (트리플에스)",
+            },
+          ],
+          length: 139000,
+          number: 7,
+          recording: {
+            externalIds: [
+              {
+                id: "602111509",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Me Myself Mode",
+        },
+      ],
+    },
+  ],
+  packaging: "None",
+  releaseDate: {
+    date: {
+      day: 1,
+      month: 6,
+      year: 2026,
+    },
+    quality: "assumed-valid",
+  },
+  status: "Official",
+  title: "<LOVE&POP> pt.1",
+  types: [
+    "EP",
+  ],
+}
+`;
+
+snapshot[`Melon provider > release lookup > Single (싱글) album 1`] = `
+{
+  artists: [
+    {
+      creditedName: "하슬 (ARTMS)",
+      externalIds: [
+        {
+          id: "1273010",
+          provider: "melon",
+          type: "artist",
+        },
+      ],
+      name: "하슬 (ARTMS)",
+    },
+  ],
+  availableIn: [
+    "KR",
+  ],
+  excludedFrom: [],
+  externalLinks: [
+    {
+      types: [
+        "paid streaming",
+      ],
+      url: "https://www.melon.com/album/detail.htm?albumId=13732020",
+    },
+  ],
+  images: [
+    {
+      thumbUrl: "https://cdnimg.melon.co.kr/cm2/album/images/137/32/020/13732020_20260612150041_1000.jpg?6dfaa6d8ce62309cfe5304f7f6205bc2",
+      types: [
+        "front",
+      ],
+      url: "https://cdnimg.melon.co.kr/cm2/album/images/137/32/020/13732020_20260612150041_org.jpg",
+    },
+  ],
+  info: {
+    messages: [],
+    providers: [
+      {
+        apiUrl: "https://m2.melon.com/m6/v3/album/info.json?albumId=13732020",
+        id: "13732020",
+        internalName: "melon",
+        lookup: {
+          method: "id",
+          value: "13732020",
+        },
+        name: "Melon",
+        url: "https://www.melon.com/album/detail.htm?albumId=13732020",
+      },
+    ],
+  },
+  labels: [
+    {
+      name: "㈜노느니특공대엔터테인먼트",
+    },
+  ],
+  media: [
+    {
+      format: "Digital Media",
+      number: 1,
+      tracklist: [
+        {
+          artists: [
+            {
+              creditedName: "하슬 (ARTMS)",
+              externalIds: [
+                {
+                  id: "1273010",
+                  provider: "melon",
+                  type: "artist",
+                },
+              ],
+              name: "하슬 (ARTMS)",
+            },
+          ],
+          length: 227000,
+          number: 1,
+          recording: {
+            externalIds: [
+              {
+                id: "602249438",
+                provider: "melon",
+                type: "song",
+              },
+            ],
+          },
+          title: "Again",
+        },
+      ],
+    },
+  ],
+  packaging: "None",
+  releaseDate: {
+    date: {
+      day: 14,
+      month: 6,
+      year: 2026,
+    },
+    quality: "assumed-valid",
+  },
+  status: "Official",
+  title: "Again",
+  types: [
+    "Single",
+  ],
+}
+`;
