@@ -11,6 +11,7 @@ const providerIconMap: Record<string, string> = {
 	itunes: 'brand-apple',
 	musicbrainz: 'brand-metabrainz',
 	mora: 'brand-mora',
+	vibe: 'brand-vibe',
 	ototoy: 'brand-ototoy',
 	qobuz: 'brand-qobuz',
 	spotify: 'brand-spotify',

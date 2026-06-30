@@ -12,6 +12,7 @@ import IconBrandGit from 'tabler-icons/brand-git.tsx';
 import IconBrandQobuz from '@/server/icons/QobuzOutline.tsx';
 import IconBrandSpotify from 'tabler-icons/brand-spotify.tsx';
 import IconBrandTidal from 'tabler-icons/brand-tidal.tsx';
+import IconBrandVibe from '../icons/BrandVibeOutline.tsx';
 import IconAlertTriangle from 'tabler-icons/alert-triangle.tsx';
 import IconBarcode from 'tabler-icons/barcode.tsx';
 import IconBug from 'tabler-icons/bug.tsx';
@@ -67,6 +68,7 @@ const icons: Icon[] = [
 	IconBrandIfpi,
 	IconBrandMetaBrainz,
 	IconBrandMora,
+	IconBrandVibe,
 	IconBrandOtotoy,
 	IconBrandQobuz,
 	IconBrandSpotify,
