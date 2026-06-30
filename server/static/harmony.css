@@ -33,6 +33,7 @@
 	--bugs: #ff3d33;
 	--deezer: #a238ff;
 	--discogs: #121212;
+	--melon: #00cd3c;
 	--mora: #02082a;
 	--musicbrainz: #ba478f;
 	--vibe: #e404aa;
@@ -472,6 +473,9 @@ label.discogs, td.discogs {
 }
 label.itunes, td.itunes {
 	background-color: var(--apple);
+}
+label.melon, td.melon {
+	background-color: var(--melon);
 }
 label.mora, td.mora {
 	background-color: var(--mora);
