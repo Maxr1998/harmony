@@ -12,6 +12,7 @@ const providerIconMap: Record<string, string> = {
 	melon: 'brand-melon',
 	musicbrainz: 'brand-metabrainz',
 	mora: 'brand-mora',
+	vibe: 'brand-vibe',
 	ototoy: 'brand-ototoy',
 	qobuz: 'brand-qobuz',
 	spotify: 'brand-spotify',
