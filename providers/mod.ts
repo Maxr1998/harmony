@@ -17,6 +17,7 @@ import QobuzProvider from './Qobuz/mod.ts';
 import BugsProvider from './Bugs/mod.ts';
 import MelonProvider from './Melon/mod.ts';
 import VibeProvider from './Vibe/mod.ts';
+import GenieProvider from './Genie/mod.ts';
 
 /** Registry with all supported providers. */
 export const providers = new ProviderRegistry({
@@ -40,6 +41,7 @@ providers.addMultiple(
 	BugsProvider,
 	MelonProvider,
 	VibeProvider,
+	GenieProvider,
 );
 
 /** Internal names of providers which are enabled by default (for GTIN lookups). */
